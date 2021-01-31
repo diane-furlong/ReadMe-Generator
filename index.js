@@ -59,7 +59,7 @@ const promptUser = () =>
     
 ## Description
     
-    ${answer.description}
+${answer.description}
     
 ## Table of Contents
     
@@ -69,8 +69,6 @@ const promptUser = () =>
     
 * [Credits](#credits)
     
-* [Contributing](#contributing)
-    
 * [Tests](#tests)
     
 * [License](#license)
@@ -79,28 +77,28 @@ const promptUser = () =>
     
 ## Installation
     
-    ${answer.installation}
+${answer.installation}
     
 ## Usage
     
-    ${answer.usageInfo}
+${answer.usageInfo}
     
 ## Credits
     
-    ${answer.contribution}
+${answer.contribution}
     
 ## Tests
     
-    ${answer.testInfo}
+${answer.testInfo}
     
 ## License
     
-    ${answer.license}
+${answer.license}
     
 ## Contact
     
-    GitHub username: ${answer.username}
-    Email address: ${answer.email}`
+GitHub username: ${answer.username}
+Email address: ${answer.email}`
 
     promptUser()
     .then((answer) => writeFileAsync('README.md', generateHTML(answer)))

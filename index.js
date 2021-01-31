@@ -67,7 +67,7 @@ ${answer.description}
     
 * [Usage](#usage)
     
-* [Credits](#credits)
+* [Contributions](#contributions)
     
 * [Tests](#tests)
     
@@ -83,7 +83,7 @@ ${answer.installation}
     
 ${answer.usageInfo}
     
-## Credits
+## Contributions
     
 ${answer.contribution}
     

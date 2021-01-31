@@ -34,7 +34,7 @@ const promptUser = () =>
         {
             type: 'input',
             message: 'Enter the test instructions of your project.',
-            name: ''
+            name: 'testInfo'
         },
         {
             type: 'list',
@@ -54,10 +54,10 @@ const promptUser = () =>
         }
     ])
 
-    const generateHTML = (answers) =>
-    ``
+    const generateHTML = (answer) =>
+    `# ${answer.title}<br><br>## Description<br>${answer.description}<br><br>## Table of Contents<br>* [Installation] (#installation)<br>* [Usage](#usage)<br>* [Credits](#credits)* [Contributing](#contributing)<br>* [Tests](#tests)<br>* [License](#license)<br>* [Contact]{#contact}<br><br> ## Installation${answer.installation}<br><br>## Usage<br>${answer.usageInfo}<br><br>## Credits<br>${answer.contribution}<br><br>## Tests<br>${answer.testInfo}<br><br>## License<br>${answer.license}<br><br>## Contact<br>GitHub username: ${answer.username}<br>Email address: ${answer.email}`
 
     promptUser()
-    .then((answers) => writeFileAsync('index.html', generateHTML(answers)))
+    .then((answer) => writeFileAsync('README.md', generateHTML(answer)))
     .then(() => console.log('Successfully wrote README.md'))
     .catch((err) => console.error(err))

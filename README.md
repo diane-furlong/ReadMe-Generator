@@ -2,7 +2,14 @@
     
     ## Description
     
-        This project is a CWRU Coding Bootcamp homework assignment. The goal of this assignment is to create a README Generator in which a user is prompted with questions using the Inquirer npm to fill the contents of the README. The application then populates each field with the answers and creates the README.md file.
+       This project is a CWRU Coding Bootcamp homework assignment. The goal of this assignment is to create a README Generator in which a user is prompted with questions using the Inquirer npm to fill the contents of the README. The application then populates each field with the answers and creates the README.md file.
+       
+       The purpose of this homework assignment is to practice working further with node.js and npms.
+       
+       The user story of this assignment was:
+       AS A developer
+       I WANT a README generator
+       SO THAT I can quickly create a professional README for a new project
     
     ## Table of Contents
     

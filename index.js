@@ -55,52 +55,51 @@ const promptUser = () =>
     ])
 
     const generateHTML = (answer) =>
-    `# ${answer.title}
+`# ${answer.title}
     
-    ## Description
+## Description
     
     ${answer.description}
     
-    ## Table of Contents
+## Table of Contents
     
-    * [Installation] (#installation)
+* [Installation](#installation)
     
-    * [Usage](#usage)
+* [Usage](#usage)
     
-    * [Credits](#credits)
+* [Credits](#credits)
     
-    * [Contributing](#contributing)
+* [Contributing](#contributing)
     
-    * [Tests](#tests)
+* [Tests](#tests)
     
-    * [License](#license)
+* [License](#license)
     
-    * [Contact]{#contact}
+* [Contact](#contact)
     
-    ## Installation
+## Installation
     
     ${answer.installation}
     
-    ## Usage
+## Usage
     
     ${answer.usageInfo}
     
-    ## Credits
+## Credits
     
     ${answer.contribution}
     
-    ## Tests
+## Tests
     
     ${answer.testInfo}
     
-    ## License
+## License
     
     ${answer.license}
     
-    ## Contact
+## Contact
     
     GitHub username: ${answer.username}
-    
     Email address: ${answer.email}`
 
     promptUser()

@@ -20,9 +20,7 @@ Deployed README link: https://diane-furlong.github.io/ReadMe-Generator
     
 * [Usage](#usage)
     
-* [Credits](#credits)
-    
-* [Contributing](#contributing)
+* [Contributions](#contributions)
     
 * [Tests](#tests)
     
@@ -52,6 +50,7 @@ None
     
     
 ## Contact
-    
-GitHub username: diane-furlong
+Questions? Contact me at:
+<br>
+GitHub username: diane-furlong <br>
 Email address: dfurlongm@gmail.com

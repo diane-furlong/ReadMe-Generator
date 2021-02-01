@@ -12,7 +12,7 @@ AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 
-Deployed application link: https://diane-furlong.github.io/ReadMe-Generator
+Deployed README link: https://diane-furlong.github.io/ReadMe-Generator
     
 ## Table of Contents
     
@@ -36,11 +36,12 @@ This application requires node.js.
     
 ## Usage
     
-Download the code and open using your preferred integrated development environment with node.js installed. Use the command line to run node on the document and follow the prompts to create your README.
+Download the code and open using your preferred integrated development environment with node.js installed. Use the command line to run node on the document and follow the prompts to create your README. Here is a demo of the application in action:
+![readme demo](assets/readme-demo.gif)
     
-## Credits
+## Contributions
     
-Assignment provided by CWRU Coding Bootcamp.
+Contributions are welcome in the form of suggestions.
     
 ## Tests
     

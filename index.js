@@ -114,7 +114,7 @@ ${answer.testInfo}
     
 ## License
     
-This application is covered under  ${answer.license}.
+${answer.license}
     
 ## Questions?
 
